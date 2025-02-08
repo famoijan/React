@@ -1,5 +1,10 @@
 function Footer() {
-    return <h2>This is my footer</h2>
+    return (
+    <div>
+        <p> &copy;{new Date().getFullYear()} This is my footer </p>
+    </div>
+
+    );
 }
 
 export default Footer;
